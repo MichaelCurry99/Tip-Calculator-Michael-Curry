@@ -1,0 +1,14 @@
+body{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: rgb(155, 192, 192);}
+
+header{
+    /* with text align, I can place my text in the middle of the page.*/
+    text-align: center;
+    color:black;
+    font-size: 40px;
+}
+
+div{
+    margin-left:20%;
+    margin-bottom:0%;
+
+}
