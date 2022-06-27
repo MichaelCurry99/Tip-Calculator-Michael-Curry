@@ -5,10 +5,45 @@ header{
     text-align: center;
     color:black;
     font-size: 40px;
+    font-size-adjust: ex-height 0.58;
 }
 
-div{
-    margin-left:20%;
-    margin-bottom:0%;
+/* Looks like I found a way to bold my text!
+b{
 
+    
+} */
+
+/* Note: Change tag to something else */
+h1{
+    /* text-align: center;
+    padding-left: 10%; */
+    margin-left: 18%;
+    margin-top: 15%;
+}
+
+p{
+    border-radius: 12px;
+    background-color: azure;
+    width:80rem;
+    height: 450px;
+    color:azure;
+    margin-left: 10%;
+    margin-top: -30%;
+}
+
+h2{
+    color:rgb(109, 197, 128);
+    margin-left: 52%;
+    margin-top: -17%;
+}
+
+h3{
+    background-color: rgb(4, 36, 36);
+    color: rgb(4, 36, 36);
+    border-radius: 12px;
+    width: 40rem;
+    height: 250px;
+    margin-left:50% ;
+    margin-top: -26%;
 }
