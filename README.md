@@ -1,5 +1,5 @@
 # Tip-Calculator-Michael-Curry
-## Tip calculator-Monday, June, 27,2022 5:00pm
+## Tip calculator-Monday, June, 27,2022 - 5:00pm
 - What progress have you made for your project so far?
   I've made it through out most of the project, but I will be finishing some of the JavaScript.
 - Are there any challenges you have / have faced? How will you / did you overcome them?
