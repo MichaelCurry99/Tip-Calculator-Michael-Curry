@@ -4,7 +4,7 @@ header{
     /* with text align, I can place my text in the middle of the page.*/
     text-align: center;
     color:black;
-    font-size: 40px;
+    font-size: 60px;
     font-size-adjust: ex-height 0.58;
 }
 
@@ -44,6 +44,17 @@ h3{
     border-radius: 12px;
     width: 40rem;
     height: 250px;
-    margin-left:50% ;
+    margin-left:50%;
     margin-top: -26%;
+}
+
+h4{
+    color:rgb(109, 197, 128);
+    font-size: 20px;
+    margin-left: 52%;
+    margin-top: 4%;
+}
+
+h5{
+    margin-left: 76%;
 }

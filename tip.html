@@ -8,67 +8,74 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- I use two headers in order to seperate the words in the header elements. I can use the <br> tag, but I chose this instead. -->
 <header>Spli</header>
 <header>tter</header>
-
-<!-- Adding in the div id will help me remember what type of data that I need to use. -->
-<h1>
-<b>
 <div id= "bill">
-<form>
-<!-- This is where I add in the input elements so that I can enter what I need. I typed in the elements to display the input box so 
-that the user can enter a number. -->
+
+<form id="input-form">
+
+<h1>
+
 <div>
-   <label for="bill amount">Bill Amount</label>
-    <input type="text" name="bill amount" id="bill amount">
+   <label for="bill-amount">Bill Amount</label>
+    <input type="text" name="bill-amount" id="bill-amount">
 </div>
 <br>
- <!-- Using the br element, I "break" the two input boxes so that they wouldn't be clumped together. -->
+ 
 <div>
 
-    <label for="tip amount">Choose tip amount:</label>
-     <div class="custom-select" style="width:20px;"  >
+    <label for="tip-per-person">Choose tip amount:</label>
+     <div class="custom-select" style="width:20px;" id="tip-per-person" form="input-form">
         <box>
             <select>
            <option value="0">Select:</option>
-           <option value="1">5%</option>
-           <option value="2">10%</option>
-           <option value="3">15%</option>
-           <option value="4">25%</option>
-           <option value="5">50%</option>
+           <option value="5%">5%</option>
+           <option value="10%">10%</option>
+           <option value="15%">15%</option>
+           <option value="25%">25%</option>
+           <option value="50%">50%</option>
             </select>
         </box>
 
         <div>
             <label for="number of customers">Number of Customers:</label>
-             <input type="text" name="number of customers" id="number of customers">
+             <input type="text" name="number of customers" id="number-of-customers">
          </div>
          <br>
-         <button type="button">Submit</button>
-        </form>
+         
+        
  </div>
-</b>
+
 </h1>
 
 <p> hey </p>
 
 <h3> I'm good</h3>
 
-<div id= "bill">
-    <form>
+<!-- <div id= "Amount"> -->
+    
         <h2>
         <div>
-            <label for="tip amount">Tip Amount</label>
-            <label for="tip amount">/ person</label>
-             <input type="text" name="tip amount" id="tip amount">
+            <label id="tip">Tip Amount</label>
+            <label id="tip-person">/ person :</label>
+             <h7 id="tip-amount"> 0.00</h7>
          </div>
          </h2>
          <br>
+         <h4>
+            <div>
+                <label id="total">Total Amount</label>
+                <label id="total-person">/ person :</label>
+                <h7 id="total-amount"> 0.00</h7>
+                 <!-- <input type="text" name="total-amount" id="total-amount"> -->
+             </div>
+             </h4>
 
+            <h5><button id="reset-button"> Reset </button></h5>
 
+            <button id="submit" type="button">Submit</button>
 
-
+    </form>
         </div>
 
 
